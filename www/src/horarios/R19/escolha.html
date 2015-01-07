@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style.css">
+        
+        <script>
+            
+            function showDia(tipo){
+
+                if(tipo == 1){
+                    document.getElementById("local").style.display = "none";
+                    document.getElementById("refB").style.display = "block";
+                    document.getElementById("diaBairro").style.display = "block";
+                }
+                
+                if(tipo == 2){
+                    document.getElementById("local").style.display = "none";
+                    document.getElementById("refC").style.display = "block";
+                    document.getElementById("diaCentro").style.display = "block";
+                }
+            }
+        </script>
+        
+    </head>
+<body>
+    
+    <header>
+        <h1>R19 - Rodoviária x Centro</h1>
+        <p id="refB" style="display:none;">Bairro</p>
+        <p id="refC" style="display:none;">Centro</p>
+    
+    </header>
+    
+    <section id="local" style="display:block;">
+    
+    <a href="#" class="link" onclick="showDia(1);">Bairro</a>
+    <a href="#" class="link" onclick="showDia(2);">Centro</a>
+        
+    </section>
+    
+    <section id="diaBairro" style="display:none;">
+    
+    <a href="#" class="link" rel="external">Dias úteis</a>
+    <a href="#" class="link">Sábado</a>
+    <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+        
+    </section>
+    
+    <section id="diaCentro" style="display:none;">
+    
+    <a href="#" class="link" rel="external">Dias úteis</a>
+    <a href="#" class="link">Sábado</a>
+    <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+        
+    </section>
+
+    
+</body>
+</html>

@@ -237,8 +237,8 @@ function InstantSearchController ($scope) {
 		},
         
         {
-			url: '#',
-			title: 'R19 – Rodoviária x CentroB',
+			url: 'horarios/R19/escolha.html',
+			title: 'R19 – Rodoviária x Centro',
 		},
         
         {

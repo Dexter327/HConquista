@@ -2,6 +2,12 @@
 
 img#logo {display: block;margin: 0 auto; margin-bottom: 10px}
 
+body {
+    width: 720px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
 a.link {
     text-decoration: none;
     display: block;
@@ -58,3 +64,10 @@ header {
 }
 
 h1, p{margin: 0;padding: 0;}
+
+.menuHorario {
+font-size: 25px;
+margin-left: 90px;
+cursor: pointer;
+border-bottom: #6200E9 2px solid;
+}

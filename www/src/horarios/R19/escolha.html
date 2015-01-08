@@ -4,8 +4,10 @@
         <meta charset="UTF-8">
         <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
         <link rel="stylesheet" type="text/css" href="../../styles/style.css">
-        
+    
         <script>
+            
+            function voltar(){location.reload();}
             
             function showDia(tipo){
 
@@ -25,26 +27,30 @@
         
     </head>
 <body>
-    
+
     <header>
         <h1>R19 - Rodoviária x Centro</h1>
-        <p id="refB" style="display:none;">Bairro</p>
-        <p id="refC" style="display:none;">Centro</p>
-    
+        <a onclick="voltar()" id="refB" style="display:none; font-size: 20px; cursor:pointer;">
+            <img src="../../img/backButton.png" style="margin-right:10px; "/>Bairro</a>
+        <a onclick="voltar()" id="refC" style="display:none; font-size: 20px; cursor:pointer;">
+            <img src="../../img/backButton.png" style="margin-right:10px;"/>Centro
+        </a>
+        
     </header>
     
-    <section id="local" style="display:block;">
+    <section id="local" style="display:block;" onload="onback()">
     
-    <a href="#" class="link" onclick="showDia(1);">Bairro</a>
-    <a href="#" class="link" onclick="showDia(2);">Centro</a>
+    <a class="link" style="cursor:pointer" onclick="showDia(1);">Bairro</a>
+    <a class="link" style="cursor:pointer" onclick="showDia(2);">Centro</a>
         
     </section>
     
     <section id="diaBairro" style="display:none;">
     
-    <a href="#" class="link" rel="external">Dias úteis</a>
+    <a href="semanaBairro.html" class="link" rel="external">Dias úteis</a>
     <a href="#" class="link">Sábado</a>
     <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+    
         
     </section>
     
@@ -53,9 +59,12 @@
     <a href="#" class="link" rel="external">Dias úteis</a>
     <a href="#" class="link">Sábado</a>
     <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+    <a onclick="voltar()"><img src="../../img/backButton.png" style="position: relative; top: 27px;left: 93%;"/></a>
         
     </section>
-
     
+    
+    
+
 </body>
 </html>

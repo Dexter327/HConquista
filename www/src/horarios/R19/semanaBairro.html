@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style.css">
+        
+        <script>
+            function voltar(){
+                window.history.back();
+            }
+        </script>
+
+    
+    </head>
+    
+<body>
+
+    <header style="height: auto;">
+        <h1>R19 - Rodoviária x Centro</h1>
+        <a onclick="voltar()" id="refB" style="display:block; font-size: 20px; cursor:pointer; margin-right:10px">
+            <img src="../../img/backButton.png" style="margin-right:10px; "/>Bairro <img src="../../img/backButton.png" style="margin:0 5px;"/> Dia útil </a></a>
+        </a>
+        
+        <section id="menu" style="margin:0 auto; margin-top:10px;padding: 0 55px;">
+             <a id="op1" class="menuHorario" onclick="manha()">Manhã</a>
+             <a id="op2" class="menuHorario" onclick="tarde()">Tarde</a>
+             <a id="op3" class="menuHorario" onclick="noite()">Noite</a>
+        </section>
+
+        
+    </header>
+
+    
+    <div id="horario" style=botao()>
+         <div id="manha" rel="01" >
+        
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+             <a class="link">00:00</a>
+        
+        </div>
+        
+         <div id="tarde" rel="02"  style="display:none" >
+        
+             <table>
+                    <tr>	<td>	12:12	</td>	<td>	12:34	</td>	<td>	12:56	</td>	</tr>
+                    <tr>	<td>	13:18	</td>	<td>	13:40	</td>	<td>	14:02	</td>	</tr>
+                    <tr>	<td>	14:24	</td>	<td>	14:46	</td>	<td>	15:08	</td>	</tr>
+                    <tr>	<td>	15:30	</td>	<td>	15:52	</td>	<td>	16:14	</td>	</tr>
+                    <tr>	<td>	16:36	</td>	<td>	16:58	</td>	<td>	17:20	</td>	</tr>
+                    <tr>	<td>	17:42	</td>	<td>		</td>	<td>		</td>	</tr>
+
+
+
+             </table>
+        
+        
+        </div>
+        
+         <div id="noite" rel="03"  style="display:none" >
+        
+             <table>
+                    <tr>	<td>	18:04	</td>	<td>	18:26	</td>	<td>	18:48	</td>	</tr>
+                    <tr>	<td>	19:10	</td>	<td>	19:32	</td>	<td>	20:00	</td>	</tr>
+                    <tr>	<td>	20:16	</td>	<td>	20:30	</td>	<td>	21:00	</td>	</tr>
+                    <tr>	<td>	21:30	</td>	<td>	22:00	</td>	<td>	22:30	</td>	</tr>
+                    <tr>	<td>	23:00	</td>	<td>	23:30	</td>	<td>	23:55	</td>	</tr>
+
+
+
+             </table>
+        
+        
+        </div>
+    </div>
+    
+    
+</body>
+</html>

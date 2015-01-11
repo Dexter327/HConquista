@@ -78,6 +78,14 @@ cursor: pointer;
 
 a#refB, a#refC{display:block; font-size: 20px; cursor:pointer; margin-right:10px}
 
+/* ================== REGRA RESPONSIVO WINDOWS PHONE ================== */
+
+@media (max-width: 400px) {
+	@-ms-viewport {
+		width: 380px;
+	}
+}
+
 /* ================== RESPONSIVE STYLE ================== */
 
 @media only screen and(max-width: 750px){
@@ -103,17 +111,20 @@ a#refB, a#refC{display:block; font-size: 20px; cursor:pointer; margin-right:10px
 
 }
 
+
 @media only screen and (max-width: 400px){
-        body,header, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:300px;margin:0 auto;}
-        a.link, #search input[type="text"]{font-size: 17px;}
+        body,header, a.link, #manha, #tarde, #noite{width:99%;margin:0 auto;float:left;}
+        a.link, #search input[type="text"]{font-size: 22px;}
+        a.link{padding:15px 0px 15px 6px; text-indent: 0;}
         header h1{font-size:27px; margin: 5px 0}
         header img {width: 7px;}
-        header{padding:10px 5px;}
+        header{padding:10px 5px 10px 0px}
         .menuHorario {margin-left: 20px; font-size: 23px;}
         #menu{padding: 5px 20px;}
         a#op1 {margin: 0;}
         a#refB, a#refC {font-size: 18px!important;}
-        #search input[type="text"]{background-position-x: 255px; background-size: 25px;height:45px}   
+        #search input[type="text"]{background-position-x: 270px; background-size: 25px;height:60px; width:100%;}
+        img#logo{width: 320px;}    
 }
 
 

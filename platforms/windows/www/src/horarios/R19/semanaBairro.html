@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />       
+        <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style.css">
+        <script src="../../js/horario.js" type="text/javascript"></script>
+        
+        <script>
+            function voltar(){
+                window.history.back();
+            }
+        </script>
+        
+    </head>
+    
+<body>
+
+    <header style="height: auto;">
+        <h1>R19 - Rodoviária x Centro</h1>
+        <a onclick="voltar()" id="refB">
+            <img src="../../img/backButton.png" style="margin-right:10px; "/>Bairro <img src="../../img/backButton.png" style="margin:0 5px;"/> Dia útil </a></a>
+        </a>
+        
+        <section id="menu" style="">
+             <a id="op1" class="menuHorario" onclick="selecao(1)" style="border-bottom:#6200E9 2px solid">Manhã</a>
+             <a id="op2" class="menuHorario" onclick="selecao(2)">Tarde</a>
+             <a id="op3" class="menuHorario" onclick="selecao(3)">Noite</a>
+        </section>
+
+        
+    </header>
+
+        
+        <!-- ================ HORÁRIO MANHÃ ================ -->
+        
+         <div id="manha" rel="01">
+        
+             <a class="link">	05:31	</a>
+             <a class="link">	05:41	</a>
+             <a class="link">	05:51	</a>
+             <a class="link">	06:01	</a>
+             <a class="link">	06:11	</a>
+             <a class="link">	06:21	</a>
+             <a class="link">	06:31	</a>
+             <a class="link">	06:41	</a>
+             <a class="link">	06:51	</a>
+             <a class="link">	07:01	</a>
+             <a class="link">	07:11	</a>
+             <a class="link">	07:21	</a>
+             <a class="link">	07:31	</a>
+             <a class="link">	07:41	</a>
+             <a class="link">	07:51	</a>
+             <a class="link">	08:11	</a>
+             <a class="link">	08:21	</a>
+             <a class="link">	08:31	</a>
+             <a class="link">	08:41	</a>
+             <a class="link">	08:51	</a>
+             <a class="link">	09:01	</a>
+             <a class="link">	09:11	</a>
+             <a class="link">	09:21	</a>
+             <a class="link">	09:31	</a>
+             <a class="link">	09:41	</a>
+             <a class="link">	09:51	</a>
+             <a class="link">	10:01	</a>
+             <a class="link">	10:11	</a>
+             <a class="link">	10:21	</a>
+             <a class="link">	10:31	</a>
+             <a class="link">	10:41	</a>
+             <a class="link">	10:51	</a>
+             <a class="link">	11:01	</a>
+             <a class="link">	11:11	</a>
+             <a class="link">	11:21	</a>
+             <a class="link">	11:31	</a>
+             <a class="link">	11:41	</a>
+             <a class="link">	11:51	</a>
+
+
+        
+        </div>
+        
+        <!-- ================ HORÁRIO TARDE ================ -->
+        
+        <div id="tarde" rel="02" style="display:none;">
+        
+             <a class="link">12:00</a>
+             <a class="link">13:00</a>
+             <a class="link">14:00</a>
+             <a class="link">15:00</a>
+             <a class="link">16:00</a>
+             <a class="link">17:00</a>
+
+
+        </div>
+        
+        <!-- ================ HORÁRIO NOITE ================ -->
+        
+        <div id="noite" rel="03" style="display:none;" >
+        
+             <a class="link">18:00</a>
+             <a class="link">19:00</a>
+             <a class="link">20:00</a>
+             <a class="link">21:00</a>
+             <a class="link">22:00</a>
+             <a class="link">23:00</a>
+             <a class="link">00:00</a>
+            <a class="link">18:00</a>
+             <a class="link">19:00</a>
+             <a class="link">20:00</a>
+             <a class="link">21:00</a>
+             <a class="link">22:00</a>
+             <a class="link">23:00</a>
+             <a class="link">00:00</a>
+        
+        </div>
+    
+    
+</body>
+</html>

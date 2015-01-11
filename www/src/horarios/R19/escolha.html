@@ -7,8 +7,21 @@
         <link rel="stylesheet" type="text/css" href="../../styles/style.css">
     
         <script>
+
+           function teste(){
+
+                n = document.URL.split("#").pop();
+
+                if(n != " "){
+                    document.getElementById(n).style.display = "block";
+                    document.getElementById("local").style.display = "none";
+                }else{
+                    document.getElementById("local").style.display = "block";
+                }
+                
+            }
             
-            function voltar(){location.reload();}
+            function voltar(){location.reload(); }
             
             function showDia(tipo){
 
@@ -23,11 +36,13 @@
                     document.getElementById("refC").style.display = "block";
                     document.getElementById("diaCentro").style.display = "block";
                 }
+                
             }
+     
         </script>
         
     </head>
-<body>
+<body onload ="teste()">
 
     <header>
         <h1>R19 - Rodoviária x Centro</h1>

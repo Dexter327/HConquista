@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style.css">
+    
+        <script>
+
+           function teste(){
+
+                n = document.URL.split("#").pop();
+
+                if(n != " "){
+                    document.getElementById(n).style.display = "block";
+                    document.getElementById("local").style.display = "none";
+                }else{
+                    document.getElementById("local").style.display = "block";
+                }
+                
+            }
+            
+            function voltar(){location.reload(); }
+            
+            function showDia(tipo){
+
+                if(tipo == 1){
+                    document.getElementById("local").style.display = "none";
+                    document.getElementById("refB").style.display = "block";
+                    document.getElementById("diaBairro").style.display = "block";
+                }
+                
+                if(tipo == 2){
+                    document.getElementById("local").style.display = "none";
+                    document.getElementById("refC").style.display = "block";
+                    document.getElementById("diaCentro").style.display = "block";
+                }
+                
+            }
+            
+            function showHorario(dia){
+                
+                if(dia == 11){
+                    document.getElementById("diaBairro").style.display = "none";
+                    document.getElementById("menu").style.display = "block";
+                    document.getElementById("horarioSemana").style.display = "block";
+                }
+                
+                if(dia == 12){
+                    document.getElementById("local").style.display = "none";
+                    document.getElementById("refC").style.display = "block";
+                    document.getElementById("diaCentro").style.display = "block";
+                }
+                
+                if(dia == 13){
+                    document.getElementById("local").style.display = "none";
+                    document.getElementById("refB").style.display = "block";
+                    document.getElementById("diaBairro").style.display = "block";
+                }
+                
+            
+            }
+     
+        </script>
+        
+    </head>
+<body onload ="teste()">
+
+    <header style="height:auto;">
+        <h1>R19 - Rodoviária x Centro</h1>
+        <a onclick="voltar()" id="refB" style="display:none; font-size: 20px; cursor:pointer;">
+            <img src="../../img/backButton.png" style="margin-right:10px; "/>Bairro</a>
+        <a onclick="voltar()" id="refC" style="display:none; font-size: 20px; cursor:pointer;">
+            <img src="../../img/backButton.png" style="margin-right:10px;"/>Centro
+        </a>
+        
+        <section id="menu" style="display:none">
+             <a id="op1" class="menuHorario" onclick="selecao(1)" style="border-bottom:#6200E9 2px solid">Manhã</a>
+             <a id="op2" class="menuHorario" onclick="selecao(2)">Tarde</a>
+             <a id="op3" class="menuHorario" onclick="selecao(3)">Noite</a>
+        </section>
+        
+    </header>
+    
+    <section id="local" style="display:block;" onload="onback()">
+    
+    <a class="link" style="cursor:pointer" onclick="showDia(1);">Bairro</a>
+    <a class="link" style="cursor:pointer" onclick="showDia(2);">Centro</a>
+        
+    </section>
+    
+    <section id="diaBairro" style="display:none;">
+    
+    <a href="#horarioSemana" onclick="showHorario(11)" class="link" rel="external">Dias úteis</a>
+    <a href="#" class="link">Sábado</a>
+    <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+    
+        
+    </section>
+    
+    <section id="diaCentro" style="display:none;">
+    
+    <a href="#horarioSemana" class="link">Dias úteis</a>
+    <a href="#" class="link">Sábado</a>
+    <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+    <a onclick="voltar()"><img src="../../img/backButton.png" style="position: relative; top: 27px;left: 93%;"/></a>
+        
+    </section>
+    
+    <section id="horarioSemana" style="display:none;">
+        
+         <!-- ================ HORÁRIO MANHÃ ================ -->
+        
+         <div id="manha" rel="01">
+        
+             <a class="link">	05:31	</a>
+             <a class="link">	05:41	</a>
+             <a class="link">	05:51	</a>
+             <a class="link">	06:01	</a>
+             <a class="link">	06:11	</a>
+             <a class="link">	06:21	</a>
+             <a class="link">	06:31	</a>
+             <a class="link">	06:41	</a>
+             <a class="link">	06:51	</a>
+             <a class="link">	07:01	</a>
+             <a class="link">	07:11	</a>
+             <a class="link">	07:21	</a>
+             <a class="link">	07:31	</a>
+             <a class="link">	07:41	</a>
+             <a class="link">	07:51	</a>
+             <a class="link">	08:11	</a>
+             <a class="link">	08:21	</a>
+             <a class="link">	08:31	</a>
+             <a class="link">	08:41	</a>
+             <a class="link">	08:51	</a>
+             <a class="link">	09:01	</a>
+             <a class="link">	09:11	</a>
+             <a class="link">	09:21	</a>
+             <a class="link">	09:31	</a>
+             <a class="link">	09:41	</a>
+             <a class="link">	09:51	</a>
+             <a class="link">	10:01	</a>
+             <a class="link">	10:11	</a>
+             <a class="link">	10:21	</a>
+             <a class="link">	10:31	</a>
+             <a class="link">	10:41	</a>
+             <a class="link">	10:51	</a>
+             <a class="link">	11:01	</a>
+             <a class="link">	11:11	</a>
+             <a class="link">	11:21	</a>
+             <a class="link">	11:31	</a>
+             <a class="link">	11:41	</a>
+             <a class="link">	11:51	</a>
+
+
+        
+        </div>
+        
+        <!-- ================ HORÁRIO TARDE ================ -->
+        
+        <div id="tarde" rel="02" style="display:none;">
+        
+             <a class="link">12:00</a>
+             <a class="link">13:00</a>
+             <a class="link">14:00</a>
+             <a class="link">15:00</a>
+             <a class="link">16:00</a>
+             <a class="link">17:00</a>
+
+
+        </div>
+        
+        <!-- ================ HORÁRIO NOITE ================ -->
+        
+        <div id="noite" rel="03" style="display:none;" >
+        
+             <a class="link">18:00</a>
+             <a class="link">19:00</a>
+             <a class="link">20:00</a>
+             <a class="link">21:00</a>
+             <a class="link">22:00</a>
+             <a class="link">23:00</a>
+             <a class="link">00:00</a>
+            <a class="link">18:00</a>
+             <a class="link">19:00</a>
+             <a class="link">20:00</a>
+             <a class="link">21:00</a>
+             <a class="link">22:00</a>
+             <a class="link">23:00</a>
+             <a class="link">00:00</a>
+        
+        </div>
+    
+    
+    
+    </section>
+    
+    
+    
+
+</body>
+</html>

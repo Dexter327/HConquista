@@ -21,15 +21,19 @@
                 
             }
             
+            function voltar(){location.reload(); }
+            
             function showDia(tipo){
 
                 if(tipo == 1){
                     document.getElementById("local").style.display = "none";
+                    document.getElementById("refB").style.display = "block";
                     document.getElementById("diaBairro").style.display = "block";
                 }
                 
                 if(tipo == 2){
                     document.getElementById("local").style.display = "none";
+                    document.getElementById("refC").style.display = "block";
                     document.getElementById("diaCentro").style.display = "block";
                 }
                 
@@ -42,13 +46,18 @@
 
     <header>
         <h1>R19 - Rodoviária x Centro</h1>
+        <a onclick="voltar()" id="refB" style="display:none; font-size: 20px; cursor:pointer;">
+            <img src="../../img/backButton.png" style="margin-right:10px; "/>Bairro</a>
+        <a onclick="voltar()" id="refC" style="display:none; font-size: 20px; cursor:pointer;">
+            <img src="../../img/backButton.png" style="margin-right:10px;"/>Centro
+        </a>
         
     </header>
     
     <section id="local" style="display:block;" onload="onback()">
     
-    <a href="#diaBairro" class="link" style="cursor:pointer" onclick="showDia(1);">Bairro</a>
-    <a href="#diaCentro" class="link" style="cursor:pointer" onclick="showDia(2);">Centro</a>
+    <a class="link" style="cursor:pointer" onclick="showDia(1);">Bairro</a>
+    <a class="link" style="cursor:pointer" onclick="showDia(2);">Centro</a>
         
     </section>
     

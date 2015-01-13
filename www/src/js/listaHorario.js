@@ -1,6 +1,15 @@
 // Definindo um novo módulo para nossa aplicação
 var app = angular.module ("instantSearch", []);
 
+app.config( [
+    '$compileProvider',
+    function( $compileProvider )
+    {   
+        $compileProvider.urlSanitizationWhitelist(/^\s*(https?|ftp|mailto|file|ghttps?|ms-appx|x-wmapp0):/);
+        // Angular before v1.2 uses $compileProvider.urlSanitizationWhitelist(...)
+    }
+]);
+
 // Crie um filtro de pesquisa instantânea
 
 app.filter ('searchFor', function () {
@@ -36,6 +45,7 @@ app.filter ('searchFor', function () {
 // O Controlador
 
 function InstantSearchController ($scope) {
+
 
 	// O modelo de dados. Estes itens normalmente são requisitados via Ajax,
 	// mas aqui estão simplificados. Veja o próximo exemplo para 

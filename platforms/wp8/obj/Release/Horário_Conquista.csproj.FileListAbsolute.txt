@@ -11,3 +11,4 @@ E:\GitHub\HConquista\platforms\wp8\obj\Release\com.dexter.horarioconquista.g.res
 E:\GitHub\HConquista\platforms\wp8\obj\Release\com.dexter.horarioconquista.dll
 E:\GitHub\HConquista\platforms\wp8\obj\Release\com.dexter.horarioconquista.pdb
 E:\GitHub\HConquista\platforms\wp8\obj\Release\XapCacheFile.xml
+E:\GitHub\HConquista\platforms\wp8\Bin\Release\Properties\WMAppManifest.xml

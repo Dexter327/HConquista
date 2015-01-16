@@ -1,28 +1,26 @@
-﻿<xapCache source="E:\GitHub\HConquista\platforms\wp8\Bin\Release\CordovaAppProj_Release_AnyCPU.xap" wasSigned="False" certificateThumbprint="" TimeStampUrl="" lastWriteTime="13/01/2015 00:31:01">
+﻿<xapCache source="E:\GitHub\HConquista\platforms\wp8\Bin\Release\CordovaAppProj_Release_AnyCPU.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="16/01/2015 14:10:58">
   <file source="E:\GitHub\HConquista\platforms\wp8\obj\Release\com.dexter.horarioconquista.dll" archivePath="com.dexter.horarioconquista.dll" lastWriteTime="12/01/2015 23:38:41" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="13/01/2015 00:30:59" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="13/01/2015 00:30:59" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\buscaHorario.html" archivePath="www\src\buscaHorario.html" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\buscaItinerario.html" archivePath="www\src\buscaItinerario.html" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\fonts\RobotoCondensed-Light.ttf" archivePath="www\src\fonts\RobotoCondensed-Light.ttf" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\horarios\R19\escolha - Copy.html" archivePath="www\src\horarios\R19\escolha - Copy.html" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\horarios\R19\escolha.html" archivePath="www\src\horarios\R19\escolha.html" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\horarios\R19\multpage.html" archivePath="www\src\horarios\R19\multpage.html" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\horarios\R19\semanaBairro.html" archivePath="www\src\horarios\R19\semanaBairro.html" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\img\backButton.png" archivePath="www\src\img\backButton.png" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\img\hconquista.png" archivePath="www\src\img\hconquista.png" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\img\search.png" archivePath="www\src\img\search.png" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\img\Thumbs.db" archivePath="www\src\img\Thumbs.db" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\angular.min.js" archivePath="www\src\js\angular.min.js" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\cordova.js" archivePath="www\src\js\cordova.js" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\horario.js" archivePath="www\src\js\horario.js" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\listaHorario.js" archivePath="www\src\js\listaHorario.js" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\listaItinerario.js" archivePath="www\src\js\listaItinerario.js" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\styles\jquery.mobile-1.4.5.min.css" archivePath="www\src\styles\jquery.mobile-1.4.5.min.css" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\styles\jquery.mobile.structure-1.4.0.min.css" archivePath="www\src\styles\jquery.mobile.structure-1.4.0.min.css" lastWriteTime="13/01/2015 00:30:58" />
-  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\styles\style.css" archivePath="www\src\styles\style.css" lastWriteTime="13/01/2015 00:30:58" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\config.xml" archivePath="config.xml" lastWriteTime="16/01/2015 14:10:42" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\cordova.js" archivePath="www\cordova.js" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\cordova_plugins.js" archivePath="www\cordova_plugins.js" lastWriteTime="16/01/2015 14:10:42" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\index.html" archivePath="www\index.html" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\buscaHorario.html" archivePath="www\src\buscaHorario.html" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\buscaItinerario.html" archivePath="www\src\buscaItinerario.html" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\fonts\RobotoCondensed-Light.ttf" archivePath="www\src\fonts\RobotoCondensed-Light.ttf" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\horarios\R19\escolha.html" archivePath="www\src\horarios\R19\escolha.html" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\horarios\R19\multpage.html" archivePath="www\src\horarios\R19\multpage.html" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\horarios\R19\semanaBairro.html" archivePath="www\src\horarios\R19\semanaBairro.html" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\img\backButton.png" archivePath="www\src\img\backButton.png" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\img\hconquista.png" archivePath="www\src\img\hconquista.png" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\img\search.png" archivePath="www\src\img\search.png" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\img\Thumbs.db" archivePath="www\src\img\Thumbs.db" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\angular.min.js" archivePath="www\src\js\angular.min.js" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\angular.new.js" archivePath="www\src\js\angular.new.js" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\cordova.js" archivePath="www\src\js\cordova.js" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\horario.js" archivePath="www\src\js\horario.js" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\listaHorario.js" archivePath="www\src\js\listaHorario.js" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\js\listaItinerario.js" archivePath="www\src\js\listaItinerario.js" lastWriteTime="16/01/2015 14:10:40" />
+  <file source="E:\GitHub\HConquista\platforms\wp8\www\src\styles\style.css" archivePath="www\src\styles\style.css" lastWriteTime="16/01/2015 14:10:40" />
   <file source="E:\GitHub\HConquista\platforms\wp8\Images\appbar.back.rest.png" archivePath="Images\appbar.back.rest.png" lastWriteTime="08/01/2015 12:16:49" />
   <file source="E:\GitHub\HConquista\platforms\wp8\Images\appbar.close.rest.png" archivePath="Images\appbar.close.rest.png" lastWriteTime="08/01/2015 12:16:49" />
   <file source="E:\GitHub\HConquista\platforms\wp8\Images\appbar.feature.video.rest.png" archivePath="Images\appbar.feature.video.rest.png" lastWriteTime="08/01/2015 12:16:49" />

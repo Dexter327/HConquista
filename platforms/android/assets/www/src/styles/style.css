@@ -1,0 +1,140 @@
+@charset="uft8";
+
+img#logo {display: block;margin: 0 auto; margin-bottom: 10px}
+
+body {
+    /* width: 720px;
+    margin: 0 auto; */
+    margin-top: 10px;
+    background: #F5F5F5;
+}
+
+a.linkPrinc{color: #FFF!important;border-bottom-color: #FFF!important; padding: 10px; font-size: 30px;}
+
+/* ================== LIST STYLE ================== */
+
+a.link {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px #999 solid;
+    font-family: 'Roboto',sans-serif;
+    width: 700px;
+    margin: 0 auto;
+    text-indent: 10px;
+    color:#999;
+    font-size: 25px;
+    padding: 15px 0;
+    left: 144px;
+}
+
+/* ================== SEARCH STYLE ===================== */
+
+li {list-style: none; margin:0; padding:0;}
+
+#search input[type="text"] {
+    border: none;
+    width: 700px;
+    height: 77px;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;    
+    text-indent: 50px;
+    font-family:'Roboto', sans-serif;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 634px;
+    box-shadow: 0px 2px 8px #ccc;
+}
+
+.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {border: none;}
+
+/* ================== HEADER STYLE ==================*/
+
+header {
+    background: #00ABBF;
+    width: 700px;
+    height: 100px;
+    color: #FFF;
+    font-family: 'Roboto', sans-serif;
+    text-indent: 19px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+h1, p{margin: 0;padding: 0;}
+
+.active{border-bottom: #6200E9 2px solid;}
+
+.menuHorario {
+font-size: 25px;
+margin-left: 90px;
+cursor: pointer;
+}
+
+#menu{
+    margin:0 auto;
+    margin-top:10px;
+    padding: 0 55px;
+}
+
+a#refB, a#refC{display:block; font-size: 20px; cursor:pointer; margin-right:10px}
+
+/* ================== REGRA RESPONSIVO WINDOWS PHONE ================== */
+
+@media (max-width: 400px) {
+	@-ms-viewport {
+		width: 380px;
+	}
+}
+
+/* ================== RESPONSIVE STYLE ================== */
+
+@media only screen and (max-width: 760px){
+        body,header, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:590px;margin:0 auto;}
+        .menuHorario {margin-left: 70px;}
+        #search input[type="text"]{background-position-x: 500px;}
+}
+
+@media only screen and (max-width: 640px){
+        body,header, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:490px;margin:0 auto;}
+        .menuHorario {margin-left: 60px;}
+        #menu{padding:0}
+        a#op1 {margin: 0;}
+        #search input[type="text"]{background-position-x: 400px; background-size: 40px}
+}
+
+@media only screen and (max-width: 500px){
+        body,header, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:390px;margin:0 auto;}
+        a.link, #search input[type="text"]{font-size: 20px;}
+        .menuHorario {margin-left: 40px;}
+        a#op1 {margin: 0;}
+        #search input[type="text"]{background-position-x: 320px; background-size: 30px;height:60px}
+
+}
+
+
+@media only screen and (max-width: 350px){
+        body,header, a.link, #manha, #tarde, #noite{width:99%;margin:0 auto;float:left;}
+        a.link, #search input[type="text"]{font-size: 22px;}
+        a.link{padding:15px 0px 15px 6px; text-indent: 0;}
+        header h1{font-size:150%; margin: 5px 0}
+        header img {width: 7px;}
+        header{padding:10px 5px 10px 0px; height:94px}
+        .menuHorario {margin-left: 28px; font-size: 23px;}
+        #menu{padding: 5px 0px;}
+        a#op1 {margin: 0;}
+        a#refB, a#refC {font-size: 18px!important;}
+        #search input[type="text"]{background-position-x: 270px; background-size: 25px;height:60px; width:100%;}
+        img#logo{width: 320px;}    
+}
+
+
+/* ================== FONT CONFIG ================== */
+
+@font-face{
+    font-family:'Roboto';
+    src:url('../fonts/RobotoCondensed-Light.ttf');
+    font-weight: normal;
+    font-style: normal;     
+}

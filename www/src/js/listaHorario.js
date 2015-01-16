@@ -314,7 +314,3 @@ function InstantSearchController ($scope) {
 	
 	];  
 }
-
-
-
-

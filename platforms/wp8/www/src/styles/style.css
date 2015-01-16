@@ -24,6 +24,7 @@ a.link {
     color:#999;
     font-size: 25px;
     padding: 15px 0;
+    left: 144px;
 }
 
 /* ================== SEARCH STYLE ===================== */
@@ -53,16 +54,17 @@ li {list-style: none; margin:0; padding:0;}
 header {
     background: #00ABBF;
     width: 700px;
-    height: 60px;
-    margin: 0 auto;
+    height: 100px;
     color: #FFF;
     font-family: 'Roboto', sans-serif;
     text-indent: 19px;
     padding: 20px 10px;
-    margin-bottom:5px;
+    margin: 0 auto;
 }
 
 h1, p{margin: 0;padding: 0;}
+
+.active{border-bottom: #6200E9 2px solid;}
 
 .menuHorario {
 font-size: 25px;
@@ -88,7 +90,7 @@ a#refB, a#refC{display:block; font-size: 20px; cursor:pointer; margin-right:10px
 
 /* ================== RESPONSIVE STYLE ================== */
 
-@media only screen and(max-width: 750px){
+@media only screen and (max-width: 760px){
         body,header, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:590px;margin:0 auto;}
         .menuHorario {margin-left: 70px;}
         #search input[type="text"]{background-position-x: 500px;}
@@ -96,7 +98,8 @@ a#refB, a#refC{display:block; font-size: 20px; cursor:pointer; margin-right:10px
 
 @media only screen and (max-width: 640px){
         body,header, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:490px;margin:0 auto;}
-        .menuHorario {margin-left: 85px;}
+        .menuHorario {margin-left: 60px;}
+        #menu{padding:0}
         a#op1 {margin: 0;}
         #search input[type="text"]{background-position-x: 400px; background-size: 40px}
 }
@@ -106,21 +109,20 @@ a#refB, a#refC{display:block; font-size: 20px; cursor:pointer; margin-right:10px
         a.link, #search input[type="text"]{font-size: 20px;}
         .menuHorario {margin-left: 40px;}
         a#op1 {margin: 0;}
-        #menu{padding: 0 35px;}
         #search input[type="text"]{background-position-x: 320px; background-size: 30px;height:60px}
 
 }
 
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 350px){
         body,header, a.link, #manha, #tarde, #noite{width:99%;margin:0 auto;float:left;}
         a.link, #search input[type="text"]{font-size: 22px;}
         a.link{padding:15px 0px 15px 6px; text-indent: 0;}
-        header h1{font-size:27px; margin: 5px 0}
+        header h1{font-size:150%; margin: 5px 0}
         header img {width: 7px;}
-        header{padding:10px 5px 10px 0px}
-        .menuHorario {margin-left: 20px; font-size: 23px;}
-        #menu{padding: 5px 20px;}
+        header{padding:10px 5px 10px 0px; height:94px}
+        .menuHorario {margin-left: 28px; font-size: 23px;}
+        #menu{padding: 5px 0px;}
         a#op1 {margin: 0;}
         a#refB, a#refC {font-size: 18px!important;}
         #search input[type="text"]{background-position-x: 270px; background-size: 25px;height:60px; width:100%;}

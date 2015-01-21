@@ -12,11 +12,9 @@
     
 <body ng-controller="controleTurno as panel">
 
-    <header>
+    <header class="typeR">
         <h1>R19 - Rodoviária x Centro</h1>
-        <a onclick="voltar()" id="refB">
-            <img src="../../img/backButton.png" style="margin-right:10px; "/>Bairro <img src="../../img/backButton.png" style="margin:0 5px;"/> Dia útil </a></a>
-        </a>
+        <a id="refB" style="display:block">Bairro - Dia útil</a>
         
         <section id="menu" style="">
                 <a class="menuHorario" ng-click="panel.setTurno(1)" ng-class="{active: panel.isTurno(1)}">Manhã</a> 
@@ -26,6 +24,10 @@
 
         
     </header>
+    
+        <a href="escolha.html#diaBairro" class="backButton">
+            <img src="../../img/backButton.png"/>
+        </a>
 
         
         <!-- ================ HORÁRIO MANHÃ ================ -->

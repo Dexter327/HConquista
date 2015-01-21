@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width" />
+        <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style.css">
+        <script src="../../js/horario.js" type="text/javascript"></script>
+        
+    </head>
+<body onload="dia()">
+
+    <header class="typeP">
+        <h1>P52 - Conquista VI x UESB (via. LEM)</h1>
+        <a id="refB">Bairro</a>
+        <a id="refC">Centro</a>
+        
+    </header>
+    
+            <a href="escolha.html" onclick="window.reload()" id="backEscolha" class="backButton" style="display:none">
+                <img src="../../img/backButton.png"/>
+            </a>
+    
+    <section id="local" style="display:block;" onload="onback()">
+                
+            <a href="../../buscaHorario.html" class="backButton">
+                <img src="../../img/backButton.png"/>
+            </a>
+    
+    <a class="link" style="cursor:pointer" onclick="showDia(1);">Bairro</a>
+    <a class="link" style="cursor:pointer" onclick="showDia(2);">Centro</a>
+        
+    </section>
+    
+    <section id="diaBairro" style="display:none;">
+    
+    <a href="semanaBairro.html" class="link" rel="external">Dias úteis</a>
+    <a href="#" class="link">Sábado</a>
+    <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+    
+        
+    </section>
+    
+    <section id="diaCentro" style="display:none;">
+    
+    <a href="#" class="link" rel="external">Dias úteis</a>
+    <a href="#" class="link">Sábado</a>
+    <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+        
+    </section>
+    
+    
+    
+
+</body>
+</html>

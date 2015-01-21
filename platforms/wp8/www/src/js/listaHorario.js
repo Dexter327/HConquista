@@ -53,11 +53,11 @@ function InstantSearchController ($scope) {
 
 	$scope.items = [
 		{
-			url: '#',
+			url: 'horarios/D30/escolha.html',
 			title: 'D30 - Vila Serranas x UESB',
 		},
 		{
-			url: '#',
+			url: 'horarios/D31/escolha.html',
 			title: 'D31 - B.Brasil X UESB',
 		},
         
@@ -77,7 +77,7 @@ function InstantSearchController ($scope) {
 		},
         
         {
-			url: '#',
+			url: 'horarios/D35/escolha.html',
 			title: 'D35 – Rodoviária x UESB',
 		},
         
@@ -127,17 +127,17 @@ function InstantSearchController ($scope) {
 		},
         
         {
-			url: '#',
+			url: 'horarios/P50/escolha.html',
 			title: 'P50 – Vilas Serranas x Conquista VI',
 		},
         
         {
-			url: '#',
+			url: 'horarios/P51/escolha.html',
 			title: 'P51 – Cidade Maravilhosa x UESB',
 		},
         
         {
-			url: '#',
+			url: 'horarios/P52/escolha.html',
 			title: 'P52 – Conquista VI x UESB (via Av. LEM)',
 		},
         
@@ -152,12 +152,12 @@ function InstantSearchController ($scope) {
 		},
         
         {
-			url: '#',
+			url: 'horarios/R01/escolha.html',
 			title: 'R01 – Vilas Serranas x Centro',
 		},
         
         {
-			url: '#',
+			url: 'horarios/R02/escolha.html',
 			title: 'R02 – Cidade Maravilhosa x Centro',
 		},
         

@@ -212,7 +212,7 @@ function InstantSearchController ($scope) {
         
         {
 			url: '#',
-			title: 'R12a – KADIJA x Feirinha',
+			title: 'R12a – Kadija x Feirinha',
 		},
         
         {
@@ -246,8 +246,8 @@ function InstantSearchController ($scope) {
 		},
         
         {
-			url: '#',
-			title: 'R19 – Rodoviária x CentroB',
+			url: 'itinerario/R19.html',
+			title: 'R19 – Rodoviária x Centro',
 		},
         
         {
@@ -257,7 +257,7 @@ function InstantSearchController ($scope) {
         
         {
 			url: '#',
-			title: 'R20 – Cidade Modelo x CENTRO',
+			title: 'R20 – Cidade Modelo x Centro',
 		},
         
         {

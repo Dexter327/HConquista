@@ -133,6 +133,7 @@ a#refB, a#refC, a#refBII, a#refCII{display:none; font-size: 20px; cursor:pointer
         header h1{font-size: 1.3em; margin: 5px 0}
         header img {width: 7px;}
         header{padding:10px 5px 10px 0px; height:87px}
+        .cabecalhoHorario{height:auto!important}
         .menuHorario {margin-left: 28px; font-size: 23px;}
         #menu{padding: 5px 0px;}
         a#op1 {margin: 0;}

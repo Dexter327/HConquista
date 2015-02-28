@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html ng-app="horario">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />       
+        <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style.css">
+        <script src="../../js/angular.new.js" type="text/javascript"></script>
+        <script src="../../js/horario.js" type="text/javascript"></script>
+          
+    </head>
+    
+<body ng-controller="controleTurno as panel">
+
+    <header class="typeD">
+        <h1>D30 - Vila Serranas x UESB</h1>
+        <a id="refB" style="display:block">UESB - Dia útil</a>
+        
+        <section id="menu" style="">
+                <a class="menuHorario" ng-click="panel.setTurno(1)" ng-class="{active: panel.isTurno(1)}">Manhã</a> 
+                <a class="menuHorario" ng-click="panel.setTurno(2)" ng-class="{active: panel.isTurno(2)}">Tarde</a>
+                <a class="menuHorario" ng-click="panel.setTurno(3)" ng-class="{active: panel.isTurno(3)}">Noite</a>
+        </section>
+
+        
+    </header>
+    
+        <a href="escolha.html#diaBairroII" class="backButton">
+            <img src="../../img/backButton.png"/>
+        </a>
+
+        
+        <!-- ================ HORÁRIO MANHÃ ================ -->
+        
+         <div ng-show="panel.isTurno(1)" class="horario">
+        
+             <a class="link">    06:18   </a>
+<a class="link"> 07:05   </a>
+<a class="link"> 07:20   </a>
+<a class="link"> 07:35   </a>
+<a class="link"> 07:50   </a>
+<a class="link"> 08:02   </a>
+<a class="link"> 08:20   </a>
+<a class="link"> 08:35   </a>
+<a class="link"> 08:50   </a>
+<a class="link"> 09:17   </a>
+<a class="link"> 09:32   </a>
+<a class="link"> 09:53   </a>
+<a class="link"> 10:11   </a>
+<a class="link"> 10:29   </a>
+<a class="link"> 10:47   </a>
+<a class="link"> 11:05 (via UFBA)    </a>
+<a class="link"> 11:23 (via UFBA)    </a>
+<a class="link"> 11:41 (via UFBA)    </a>
+<a class="link"> 11:59 (via UFBA)    </a>
+
+
+
+        
+        </div>
+        
+        <!-- ================ HORÁRIO TARDE ================ -->
+        
+        <div ng-show="panel.isTurno(2)" class="horario">
+        
+             <a class="link">    12:17 (via UFBA)    </a>
+<a class="link"> 12:35 (via UFBA)    </a>
+<a class="link"> 12:53 (via UFBA)    </a>
+<a class="link"> 13:11 (via UFBA)    </a>
+<a class="link"> 13:29 (via UFBA)    </a>
+<a class="link"> 13:47 (via UFBA)    </a>
+<a class="link"> 14:05 (via UFBA)    </a>
+<a class="link"> 14:23   </a>
+<a class="link"> 14:41   </a>
+<a class="link"> 14:59   </a>
+<a class="link"> 15:17   </a>
+<a class="link"> 15:35   </a>
+<a class="link"> 15:53   </a>
+<a class="link"> 16:11   </a>
+<a class="link"> 16:29   </a>
+<a class="link"> 16:47   </a>
+<a class="link"> 17:05   </a>
+<a class="link"> 17:23 (via UFBA)    </a>
+<a class="link"> 17:41 (via UFBA)    </a>
+<a class="link"> 17:59 (via UFBA)    </a>
+
+
+        </div>
+        
+        <!-- ================ HORÁRIO NOITE ================ -->
+        
+        <div ng-show="panel.isTurno(3)" class="horario">
+        
+<a class="link"> 18:17 (via UFBA)    </a>
+<a class="link"> 18:35 (via UFBA)    </a>
+<a class="link"> 18:53 (via UFBA)    </a>
+<a class="link"> 19:11 (via UFBA)    </a>
+<a class="link"> 19:29 (via UFBA)    </a>
+<a class="link"> 19:47 (via UFBA)    </a>
+<a class="link"> 20:05 (via UFBA)    </a>
+<a class="link"> 20:23   </a>
+<a class="link"> 20:41   </a>
+<a class="link"> 20:59   </a>
+<a class="link"> 21:17   </a>
+<a class="link"> 21:35   </a>
+<a class="link"> 21:58   </a>
+<a class="link"> 22:14   </a>
+<a class="link"> 22:30   </a>
+<a class="link"> 22:21   </a>
+<a class="link"> 22:36   </a>
+<a class="link"> 22:54   </a>
+<a class="link"> 23:10   </a>
+<a class="link"> 23:35   </a>
+            
+
+        
+        </div>
+    
+</body>
+</html>

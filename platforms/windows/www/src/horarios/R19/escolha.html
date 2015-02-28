@@ -12,7 +12,7 @@
         </script>
         
     </head>
-<body onload ="dia()">
+<body onload="dia()">
 
     <header class="typeR">
         <h1>R19 - Rodoviária x Centro</h1>
@@ -21,12 +21,16 @@
         
     </header>
     
-        <a href="escolha.html" class="backButton">
-            <img src="../../img/backButton.png"/>
-        </a>
+                <a href="escolha.html" onclick="window.reload()" id="backEscolha" class="backButton" style="display:none">
+                    <img src="../../img/backButton.png"/>
+                </a>
     
             <section id="local" style="display:block;" onload="onback()">
-
+                
+                <a href="../../buscaHorario.html" class="backButton">
+                    <img src="../../img/backButton.png"/>
+                </a>
+                
             <a class="link" style="cursor:pointer" onclick="showDia(1);">Bairro</a>
             <a class="link" style="cursor:pointer" onclick="showDia(2);">Centro</a>
 
@@ -34,18 +38,18 @@
 
             <section id="diaBairro" style="display:none;">
 
-            <a href="semanaBairro.html" class="link" rel="external">Dias úteis</a>
-            <a href="#" class="link">Sábado</a>
-            <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+            <a href="bairroSemana.html" class="link" rel="external">Dias úteis</a>
+            <a href="bairroSabado.html" class="link" rel="external">Sábado</a>
+            <a href="bairroDomingo.html" class="link" rel="external">Domingos e Feriados</a>
 
 
             </section>
 
             <section id="diaCentro" style="display:none;">
 
-            <a href="#" class="link" rel="external">Dias úteis</a>
-            <a href="#" class="link">Sábado</a>
-            <a href="#" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
+            <a href="centroSemana.html" class="link" rel="external">Dias úteis</a>
+            <a href="centroSabado.html" class="link">Sábado</a>
+            <a href="centroDomingo.html" id="soon" onclick="indisponivel()" class="link">Domingos e Feriados</a>
 
             </section>
         

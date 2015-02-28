@@ -15,27 +15,10 @@
      });   
 
 })();
-
-function dia(){
-                var site = document.URL;
-                var newSite = site.split('escolha.html').pop();
-                if(newSite == '#diaBairro'){
-                    showDia(1);
-                }
-                if(newSite == '#diaCentro'){
-                    showDia(2);
-                }
-                if(newSite == '#diaBairroII'){
-                    showDia(3);
-                }
-                if(newSite == '#diaCentroII'){
-                    showDia(4);
-                }
-                
-            }
             
 function showDia(tipo){
     document.getElementById("local").style.display = "none";
+    document.getElementById("backEscolha").style.display = "block";
 
     if(tipo == 1){    
         document.getElementById("refB").style.display = "block";
@@ -54,6 +37,27 @@ function showDia(tipo){
 
     if(tipo == 4){
         document.getElementById("refCII").style.display = "block";
-        document.getElementById("diaCentroII").style.display = "block";
+        document.getElementById("diaCentroII").style.display = "block"; 
     }
+}
+
+function dia(){
+    var newSite = document.URL;
+    newSite = newSite.split('escolha.html').pop();
+    if(newSite == '#diaBairro'){
+        showDia(1);
+    }
+    if(newSite == '#diaCentro'){
+        showDia(2);
+    }
+    if(newSite == '#diaBairroII'){
+        showDia(3);
+    }
+    if(newSite == '#diaCentroII'){
+        showDia(4);
+    }
+    if(newSite == '#buscaHorario'){
+        window.location = '../../buscaHorario.html';
+    }
+    
 }

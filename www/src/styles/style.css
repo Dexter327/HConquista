@@ -126,7 +126,8 @@ a#refB, a#refC, a#refBII, a#refCII{display:none; font-size: 20px; cursor:pointer
 
 
 @media only screen and (max-width: 350px){
-        body,header, a.link, #manha, #tarde, #noite{width:99%;margin:0 auto;float:left;}
+        #manha, #tarde, #noite{width:99%;margin:0 auto;float:left;}
+        body,header, a.link{width:270px; margin:0 auto;}
         a#refB, a#refC, a#refBII, a#refCII{font-size:16px;}
         #search input[type="text"]{font-size: 22px;}
         a.link{padding:15px 0px 15px 6px; text-indent: 0;}
@@ -138,7 +139,7 @@ a#refB, a#refC, a#refBII, a#refCII{display:none; font-size: 20px; cursor:pointer
         #menu{padding: 5px 0px;}
         a#op1 {margin: 0;}
         a#refB, a#refC {font-size: 16px!important;}
-        #search input[type="text"]{background-position-x: 270px; background-size: 25px;height:60px; width:100%;}
+        #search input[type="text"]{background-position-x: 90%; background-size: 25px;height:60px; width:100%;}
         img#logo{width: 320px;} 
         
 }

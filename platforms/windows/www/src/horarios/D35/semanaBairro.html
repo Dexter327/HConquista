@@ -1,0 +1,80 @@
+﻿<!DOCTYPE html>
+<html ng-app="horario">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />       
+        <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
+        <link rel="stylesheet" type="text/css" href="../../styles/style.css">
+        <script src="../../js/angular.new.js" type="text/javascript"></script>
+        <script src="../../js/horario.js" type="text/javascript"></script>
+          
+    </head>
+    
+<body ng-controller="controleTurno as panel">
+
+    <header class="typeD">
+        <h1>D35 - Rodoviária x UESB</h1>
+        <a id="refB" style="display:block">Bairro - Dia útil</a>
+        
+        <section id="menu" style="">
+                <a class="menuHorario" ng-click="panel.setTurno(1)" ng-class="{active: panel.isTurno(1)}">Manhã</a> 
+                <a class="menuHorario" ng-click="panel.setTurno(2)" ng-class="{active: panel.isTurno(2)}">Tarde</a>
+                <a class="menuHorario" ng-click="panel.setTurno(3)" ng-class="{active: panel.isTurno(3)}">Noite</a>
+        </section>
+
+        
+    </header>
+    
+        <a href="escolha.html#diaBairro" class="backButton">
+            <img src="../../img/backButton.png"/>
+        </a>
+
+        
+        <!-- ================ HORÁRIO MANHÃ ================ -->
+        
+         <div ng-show="panel.isTurno(1)" class="horario">
+        
+<a class="link">    06:00 - Fainor/UFBA </a>
+<a class="link">    06:58 - Fainor/UFBA </a>
+<a class="link">    08:02   </a>
+<a class="link">    09:10   </a>
+<a class="link">    10:08   </a>
+<a class="link">    11:06   </a>
+
+
+        
+        </div>
+        
+        <!-- ================ HORÁRIO TARDE ================ -->
+        
+        <div ng-show="panel.isTurno(2)" class="horario">
+        
+<a class="link">    12:04 - Fainor/UFBA </a>
+<a class="link">    13:02 - Fainor/UFBA </a>
+<a class="link">    14:06   </a>
+<a class="link">    15:04   </a>
+<a class="link">    16:02   </a>
+<a class="link">    17:00   </a>
+<a class="link">    17:58 - Fainor/UFBA </a>
+
+
+
+
+        </div>
+        
+        <!-- ================ HORÁRIO NOITE ================ -->
+        
+        <div ng-show="panel.isTurno(3)" class="horario">
+        
+<a class="link">    18:56 - Fainor/UFBA </a>
+<a class="link">    20:00   </a>
+<a class="link">    20:54   </a>
+<a class="link">    21:46   </a>
+<a class="link">    22:40   </a>
+         
+
+        
+        </div>
+    
+</body>
+</html>

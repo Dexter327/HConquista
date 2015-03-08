@@ -52,35 +52,37 @@ function InstantSearchController ($scope) {
 	// dicas usando Ajax.
 
 	$scope.items = [
-		{
-			url: 'horarios/D30/escolha.html',
+	
+/*		{
+			url: '"#"',
 			title: 'D30 - Vila Serranas x UESB',
 		},
+*/
 		{
 			url: 'horarios/D31/escolha.html',
 			title: 'D31 - B.Brasil X UESB',
 		},
-        
+ /*       
         {
 			url: '#',
 			title: 'D32 – N. Sra. Aparecida x UESB',
 		},
-        
+ */       
         {
-			url: '#',
+			url: 'horarios/D33/escolha.html',
 			title: 'D33 – Conquista VI x UESB',
 		},
-        
+ /*       
         {
 			url: '#',
 			title: 'D34 – Patagônia x UESB',
 		},
-        
+ */      
         {
 			url: 'horarios/D35/escolha.html',
 			title: 'D35 – Rodoviária x UESB',
 		},
-        
+   /*     
         {
 			url: '#',
 			title: 'D36 – M. dos Pássaros x UESB',
@@ -125,19 +127,19 @@ function InstantSearchController ($scope) {
 			url: '#',
 			title: 'D43 – Conveima I x Uesb',
 		},
-        
+   */     
         {
 			url: 'horarios/P50/escolha.html',
 			title: 'P50 – Vilas Serranas x Conquista VI',
 		},
-        
+  /*      
         {
-			url: 'horarios/P51/escolha.html',
+			url: '#',
 			title: 'P51 – Cidade Maravilhosa x UESB',
 		},
         
         {
-			url: 'horarios/P52/escolha.html',
+			url: '#',
 			title: 'P52 – Conquista VI x UESB (via Av. LEM)',
 		},
         
@@ -152,12 +154,12 @@ function InstantSearchController ($scope) {
 		},
         
         {
-			url: 'horarios/R01/escolha.html',
+			url: '#',
 			title: 'R01 – Vilas Serranas x Centro',
 		},
         
         {
-			url: 'horarios/R02/escolha.html',
+			url: '#',
 			title: 'R02 – Cidade Maravilhosa x Centro',
 		},
         
@@ -245,12 +247,13 @@ function InstantSearchController ($scope) {
 			url: '#',
 			title: 'R18 – Boa vista x Centro (via V. América)',
 		},
-        
+*/        
         {
 			url: 'horarios/R19/escolha.html',
 			title: 'R19 – Rodoviária x Centro',
 		},
-        
+/*     
+
         {
 			url: '#',
 			title: 'R19a – Rodoviária x Centro (via Sta. Helena)',
@@ -310,7 +313,9 @@ function InstantSearchController ($scope) {
 			url: '#',
 			title: 'E04 – Miro Cairo X Dass',
 		},
-		        
+
+
+*/      
 	
 	];  
 }

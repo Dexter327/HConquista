@@ -9,7 +9,8 @@
          };
          
          this.isTurno = function(tabAtivo){
-             return this.horario === tabAtivo;
+                return this.horario === tabAtivo;
+   
          };
          
      });   

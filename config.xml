@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.dexter.horarioconquista" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+<widget id="com.dexter.horarioconquista" version="2.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>Horário Conquista</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Aplicativo de Horário de Ônibus de Vitória da Conquista - Bahia
     </description>
-    <author email="support@phonegap.com" href="http://phonegap.com">
-        PhoneGap Team
+    <author>
+        Vasta Web
     </author>
     <content src="index.html" />
     <preference name="permissions" value="none" />
-    <preference name="phonegap-version" value="3.5.0" />
-    <preference name="orientation" value="default" />
+    <preference name="phonegap-version" value="3.6.3" />
+    <preference name="orientation" value="portrait" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="true" />
     <preference name="webviewbounce" value="true" />
@@ -20,7 +20,7 @@
     <preference name="detect-data-types" value="true" />
     <preference name="exit-on-suspend" value="false" />
     <preference name="show-splash-screen-spinner" value="true" />
-    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="auto-hide-splash-screen" value="false" />
     <preference name="disable-cursor" value="false" />
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-installLocation" value="auto" />
@@ -42,7 +42,13 @@
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
     <gap:plugin name="org.apache.cordova.vibration" />
-    <icon src="icon.png" />
+    <icon src="www/icon.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="www/splashscreen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="www/splashscreen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-hdpi" src="www/splashscreen.png" />
+    <gap:splash gap:platform="android" gap:qualifier="port-xhdpi" src="www/splashscreen.png" />
+    <!-- 
+
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
     <icon gap:platform="android" gap:qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
@@ -67,5 +73,8 @@
     <gap:splash gap:platform="ios" height="1024" src="www/res/screen/ios/screen-ipad-portrait.png" width="768" />
     <gap:splash gap:platform="ios" height="768" src="www/res/screen/ios/screen-ipad-landscape.png" width="1024" />
     <gap:splash gap:platform="winphone" src="www/res/screen/windows-phone/screen-portrait.jpg" />
+
+    -->
+    
     <access origin="*" />
 </widget>

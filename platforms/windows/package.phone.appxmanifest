@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest" xmlns:m3="http://schemas.microsoft.com/appx/2014/manifest" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest">
-    <Identity Name="com.dexter.horarioconquista" Publisher="CN=$username$" Version="1.0.0.0" />
+    <Identity Name="com.dexter.horarioconquista" Publisher="CN=$username$" Version="2.0.0.0" />
     <mp:PhoneIdentity PhoneProductId="66de6100-992f-11e4-b161-09e143e2eb4d" PhonePublisherId="db093ed5-53b1-45f7-af72-751e8f36ab80" />
     <Properties>
         <DisplayName>Horário Conquista</DisplayName>
-        <PublisherDisplayName>PhoneGap Team</PublisherDisplayName>
+        <PublisherDisplayName>Vasta Web</PublisherDisplayName>
         <Logo>images\StoreLogo.png</Logo>
     </Properties>
     <Prerequisites>

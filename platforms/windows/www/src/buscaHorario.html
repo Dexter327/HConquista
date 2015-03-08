@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width" />
         <link rel="stylesheet" type="text/css" href="styles/style.css">
         <script src="js/angular.min.js"></script>
-        <script src="js/listaHorario.js"></script>  
+        <script src="js/listaHorario.js"></script>
+        
     </head>
     
     <body ng-app="instantSearch" ng-controller="InstantSearchController">
@@ -26,7 +27,7 @@
 
             </div>
         
-    <div id="lista" class="listaOnibus">
+    <div id="lista">
         
         <li ng-repeat="i in items | searchFor:searchString" style="text-decoration: none;">
 				<a href="{{ i.url }}" class="link" rel="external"><p>{{ i.title }}</p></a>

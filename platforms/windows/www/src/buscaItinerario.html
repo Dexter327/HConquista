@@ -13,10 +13,6 @@
     </body>
         <div id="lista">
             
-            <a href="../index.html" class="backButton">
-                    <img src="img/backButton.png"/>
-                </a>
-            
             <div id=form >
            
             <form method="get" action="none" id="search">
@@ -26,7 +22,7 @@
 
             </div>
         
-    <div id="lista" class="listaOnibus">
+    <div id="lista">
         
         <li ng-repeat="i in items | searchFor:searchString" style="text-decoration: none">
 				<a href="{{ i.url }}" class="link" style="text-align: left;"><p>{{ i.title }}</p></a>

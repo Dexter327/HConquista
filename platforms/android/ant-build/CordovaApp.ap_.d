@@ -23,10 +23,10 @@ C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\ww
 C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\_where-is-www.txt \
 C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\cordova.js \
 C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\cordova_plugins.js \
-C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\icon.png \
 C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\index.html \
-C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\splashscreen.png \
+C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\res \
 C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\src \
+C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\res\icon \
 C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\src\buscaHorario.html \
 C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\src\buscaItinerario.html \
 C:\Users\Dexter Oliveira\Documents\GitHub\HConquista\platforms\android\assets\www\src\fonts \

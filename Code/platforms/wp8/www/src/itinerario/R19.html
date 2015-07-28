@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html ng-app="horario">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />       
+        <title>Horário Conquista - Aplicativo de ônibus de Vitória da Conquista</title>
+        <link rel="stylesheet" type="text/css" href="../styles/style.css">
+        <script src="../js/angular.new.js" type="text/javascript"></script>
+        <script src="../js/horario.js" type="text/javascript"></script>
+          
+    </head>
+    
+<body ng-controller="controleTurno as panel">
+
+    <header class="typeR">
+        <h1>R19 - Rodoviária x Centro</h1>
+        <a id="refB" style="display:block">Itinerário</a>
+        
+        <section id="menu" style="">
+                <a class="menuHorario" ng-click="panel.setTurno(1)" ng-class="{active: panel.isTurno(1)}">Ida</a> 
+                <a class="menuHorario" ng-click="panel.setTurno(2)" ng-class="{active: panel.isTurno(2)}">Volta</a>
+        </section>
+
+        
+    </header>
+
+        
+        <!-- ================ ITINERÁRIO IDA ================ -->
+        
+         <div ng-show="panel.isTurno(1)" class="horario">
+        
+            <a class="link">Hospital de Base (Bairro Felícia)</a>
+            <a class="link">BR-116 </a>
+            <a class="link">Av. Imborés (Bairro Patagônia)</a>
+            <a class="link">Av. Frei Benjamin (Bairro Brasil)</a>
+            <a class="link">Av. Brumado</a>
+            <a class="link">Av. Régis Pacheco (Centro)</a>
+            <a class="link">Terminal Lauro de Freitas</a>
+
+
+        </div>
+        
+        <!-- ================ ITINERÁRIO VOLTA ================ -->
+        
+        <div ng-show="panel.isTurno(2)" class="horario">
+        
+            <a class="link">Terminal Lauro de Freitas</a>
+            <a class="link">Av. Régis Pacheco (Centro)</a>
+            <a class="link">Av. Maranhão</a>
+            <a class="link">Av. Brumado</a>
+            <a class="link">Av. Frei Benjamin (Bairro Brasil)</a>
+            <a class="link">Av. Imborés (Bairro Patagônia)</a>
+            <a class="link">BR-116 </a>
+            <a class="link">Hospital de Base (Bairro Felícia)</a>
+
+
+        </div>
+        
+    
+</body>
+</html>

@@ -1,0 +1,160 @@
+@charset="uft8";
+
+img#logo {display: block;margin: 0 auto; margin-bottom: 10px}
+
+body {
+    /* width: 720px;
+    margin: 0 auto; */
+    margin-top: 10px;
+    background: #F5F5F5;
+    font-family: "roboto",sans-serif;
+}
+
+.backButton{display:block;right:35px; bottom: 20px; position:fixed}
+.backButton img{border:none}
+
+a.linkPrinc{color: #FFF!important; border-bottom: 1px solid #FFF!important;}
+
+/* ================== LIST STYLE ================== */
+
+a.link {
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px #999 solid;
+    width: 700px;
+    margin: 0 auto;
+    text-indent: 10px;
+    color:#999;
+    font-size: 25px;
+    padding: 15px 0;
+    left: 144px;
+}
+
+/* ================== SEARCH STYLE ===================== */
+
+li {list-style: none; margin:0; padding:0;}
+
+#search input[type="text"] {
+    border: none;
+    width: 700px;
+    height: 77px;
+    display: block;
+    margin: 0 auto;
+    font-size: 20px;    
+    text-indent: 50px;
+    font-family:'roboto', sans-serif;
+    background-image: url(../img/search.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-x: 634px;
+    box-shadow: 0px 2px 8px #ccc;
+}
+
+        
+        
+
+.ui-input-text.ui-body-inherit.ui-corner-all.ui-shadow-inset {border: none;}
+
+/* ================== HEADER STYLE ==================*/
+
+header {
+    width: 700px;
+    height: 82px;
+    color: #FFF;
+    font-family: 'roboto', sans-serif;
+    text-indent: 19px;
+    padding: 20px 10px;
+    margin: 0 auto;
+}
+
+.typeR{background: #00ABBF;}
+.typeP{background: #4CAF50;}
+.typeD{background: #E55000;}
+
+h1, p{margin: 0;padding: 0;}
+
+.active{border-bottom: #6200E9 2px solid;}
+
+.menuHorario {
+font-size: 25px;
+margin-left: 90px;
+cursor: pointer;
+}
+
+#menu{
+    margin:0 auto;
+    margin-top:10px;
+    padding: 0 55px;
+}
+
+a#refB, a#refC, a#refBII, a#refCII{display:none; font-size: 20px; cursor:pointer; margin-right:10px}
+
+/* ================== REGRA RESPONSIVO WINDOWS PHONE ================== */
+
+@media (max-width: 400px) {
+	@-ms-viewport {
+		width: 380px;
+	}
+}
+
+/* ================== RESPONSIVE STYLE ================== */
+
+
+@media only screen and (max-width: 760px){
+        body,header, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:590px;margin:0 auto;}
+        .menuHorario {margin-left: 70px;}
+        #search input[type="text"]{background-position-x: 500px;}
+        .backButton img {height: 55px;}
+        #form{position:fixed; top:0px;}
+        .listaOnibus{margin-top:65px; overflow:hidden;}
+}
+
+@media only screen and (max-width: 640px){
+        body,header, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:490px;margin:0 auto;}
+        .menuHorario {margin-left: 60px;}
+        #menu{padding:0}
+        a#op1 {margin: 0;}
+        #search input[type="text"]{background-position-x: 400px; background-size: 40px}
+        .backButton{right:20px;}
+}
+
+@media only screen and (max-width: 500px){
+        body, a.link, #manha, #tarde, #noite, #search input[type="text"]{width:97%;margin:0 auto;}
+        header{width:100%; padding:10px 5px 12px 0;}
+        a.link, #search input[type="text"]{font-size: 20px;}
+        .menuHorario {margin-left: 40px;}
+        a#op1 {margin: 0;}
+        #search input[type="text"]{background-position-x: 93%; background-size: 30px;height:60px}
+        h1{font-size: 1.6em;}
+        .backButton img {height: 45px;}
+        img#logo{width: 97%;}
+
+    
+}
+
+
+@media only screen and (max-width: 350px){
+        #manha, #tarde, #noite{width:99%;margin:0 auto;float:left;}
+        body,header, a.link{width:270px; margin:0 auto;}
+        a#refB, a#refC, a#refBII, a#refCII{font-size:16px;}
+        #search input[type="text"]{font-size: 22px;}
+        a.link{padding:15px 0px 15px 6px; text-indent: 0; }
+        header h1{font-size: 1.3em; margin: 5px 0}
+        header img {width: 7px;}
+        header{padding:10px 5px 10px 0px; height:87px}
+        .cabecalhoHorario{height:auto!important}
+        #menu{padding: 5px 0px;}
+        a#op1 {margin: 0;}
+        a#refB, a#refC {font-size: 16px!important;}
+        #search input[type="text"]{background-position-x: 90%; background-size: 25px;height:60px; width:100%;}
+        .menuHorario {font-size: 22px;margin: 0;margin-right: 26px;}
+           
+}
+
+
+/* ================== FONT CONFIG ================== */
+
+@font-face{
+    font-family:'roboto';
+    src:url('../fonts/roboto.ttf');
+}
